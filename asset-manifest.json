@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/origen/static/css/main.ca08a8b5.css",
+    "main.js": "/origen/static/js/main.d3440ef4.js",
+    "static/media/video.mp4": "/origen/static/media/video.39dad4d22ca8c48534d2.mp4",
+    "static/media/logo2.png": "/origen/static/media/logo2.fd42d301dceeb0ba248e.png",
+    "static/media/espiral2.png": "/origen/static/media/espiral2.a82aa14728296eff4fd8.png",
+    "static/media/img1.png": "/origen/static/media/img1.31a8377a5e6a368e8b8b.png",
+    "static/media/img3.png": "/origen/static/media/img3.4251bd2a01606ebf7a32.png",
+    "static/media/img4.png": "/origen/static/media/img4.3fb6c44317f2a161e40b.png",
+    "static/media/img7.png": "/origen/static/media/img7.a4b8ac3b31e2f8e6714a.png",
+    "static/media/img6.png": "/origen/static/media/img6.3141f842f4d310e0b044.png",
+    "static/media/img2.png": "/origen/static/media/img2.7cee805330fb9d1a3de5.png",
+    "static/media/img5.png": "/origen/static/media/img5.2c615eeb7fcd19e2639d.png",
+    "index.html": "/origen/index.html",
+    "main.ca08a8b5.css.map": "/origen/static/css/main.ca08a8b5.css.map",
+    "main.d3440ef4.js.map": "/origen/static/js/main.d3440ef4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca08a8b5.css",
+    "static/js/main.d3440ef4.js"
+  ]
+}
