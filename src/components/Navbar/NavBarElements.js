@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    height: 80px
+    height: 80px;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -88,7 +88,7 @@ export const NavLinks = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        color: #fff;
+        color: #282c54;
     }
 `
 
@@ -103,10 +103,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #fff;
+    background: ${({scrollNav}) => (scrollNav ? '#587cbc' : '#282c54')};
     white-space: nowrap;
     padding: 10px 22px;
-    color: #000;
+    color: ${({scrollNav}) => (scrollNav ? '#010606' : '#fff')};
     font-size: 16px;
     outline: none;
     border: none;
@@ -116,7 +116,7 @@ export const NavBtnLink = styled(LinkR)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #587cbc;
-        color: #fff;
+        background: ${({scrollNav}) => (scrollNav ? '#282c54' : '#587cbc')};
+        color: ${({scrollNav}) => (scrollNav ? '#fff' : '#010606')};
     }
 `

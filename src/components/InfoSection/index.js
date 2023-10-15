@@ -27,7 +27,7 @@ const InfoSection = ({Route, lightBg, id, imgStart, topLine, lightText, headline
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                    <Button to={Route} smooth={true} duration={500} spy={true} exact='true' offset={-80} primary={primary ? 0 : 1} dark={dark ? 0 : 1} dark2={dark2 ? 0 : 1}>
+                    <Button to={Route} duration={500} exact='true' offset={-80} primary={primary ? 0 : 1} dark={dark ? 0 : 1} dark2={dark2 ? 0 : 1}>
                         {buttonLabel}
                     </Button>
                 </BtnWrap>

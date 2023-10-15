@@ -13,7 +13,7 @@ import {
 } from "./NavBarElements";
 import logo from "../../images/espiral2.png";
 import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll} from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -31,12 +31,12 @@ const Navbar = ({ toggle }) => {
   }, []);
 
   const toggleHome = () => {
-    scroll.scrollToTop()
-  }
+    scroll.scrollToTop();
+  };
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#587cbc' }}>
+      <IconContext.Provider value={{ color: "#587cbc" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
@@ -48,20 +48,58 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks to='sobrenosotros' smooth={true} duration={500} spy={true} exact='true' offset={0}>Sobre nosotros</NavLinks>
+                <NavLinks
+                  to="sobrenosotros"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Sobre nosotros
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="colaboraciones" smooth={true} duration={500} spy={true} exact='true' offset={0}>Colaboraciones</NavLinks>
+                <NavLinks
+                  to="colaboraciones"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Colaboraciones
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="servicios" smooth={true} duration={500} spy={true} exact='true' offset={0}>Servicios</NavLinks>
+                <NavLinks
+                  to="servicios"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Servicios
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="contacto" smooth={true} duration={500} spy={true} exact='true' offset={0}>Contacto</NavLinks>
+                <NavLinks
+                  to="contacto"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={0}
+                >
+                  Contacto
+                </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/Contacto">Cotizar</NavBtnLink>
+              <NavBtnLink to="/Contacto" scrollNav={scrollNav}>
+                Cotizar
+              </NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
